@@ -1,0 +1,69 @@
+        @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700|PT+Serif:400,400i');
+        body {
+            color: black;
+            background-color: whitesmoke;
+            font-family: 'PT Serif', serif;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+        
+        .menu {
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        #mleft {
+            font-style: italic;
+            width: 30em;
+            float: left
+        }
+        
+        #mright {
+            font-family: 'Oxygen', sans-serif;
+            float: right;
+        }
+        
+        #mright :last-child {
+            border: none;
+        }
+        
+        .button {
+            float: left;
+            padding: 0 4px;
+            border-right: dotted 1px black;
+            transition: all 0.3s;
+            position: relative;
+        }
+        
+        .button:hover {
+            transform: translateY(2px);
+            color: darkolivegreen;
+        }
+        
+        .stuff {
+            background-color: rgba(0, 0, 0, 0.3);
+            background-image: url(img/photo-1432821596592-e2c18b78144f.jpeg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-blend-mode: multiply;
+            height: 90vh;
+            position: relative;
+            text-align: center;
+        }
+        
+        h1 {
+            padding-top: 40vh;
+            color: white;
+            letter-spacing: 2px;
+            margin-bottom: 0;
+            font-size: 35px;
+        }
+        
+        p {
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            font-size: 21px;
+        }
