@@ -8,15 +8,28 @@
             width: 100%;
         }
         
-        .menu {
-            width: 80%;
-            margin: 0 auto;
+        .part{
+            width:100%;
         }
-        
+
+        .limit{
+            width:80%;
+            margin: 0 auto;
+            box-sizing: border-box;
+        }
+
+        .menu {
+            position: fixed;
+            top:0;left:0;
+            z-index: 999;
+            background-color: white;
+        }
+
+
         #mleft {
             font-style: italic;
-            width: 30em;
-            float: left
+            float: left;
+            padding: 1em;
         }
         
         #mright {
@@ -34,6 +47,8 @@
             border-right: dotted 1px black;
             transition: all 0.3s;
             position: relative;
+            padding: 1em;
+            cursor: pointer;
         }
         
         .button:hover {
@@ -49,20 +64,37 @@
             background-position: center;
             background-size: cover;
             background-blend-mode: multiply;
-            height: 90vh;
-            position: relative;
+            height: 100vh;           
             text-align: center;
         }
         
-        h1 {
-            padding-top: 40vh;
+        .center-parent{
+            position:relative;
+        }
+        .center-ver{
+            position:absolute;
+            top:50%;
+            transform:translateY(-50%);
+        }
+        .center-hor{
+            position:absolute;
+            left:50%;
+            transform:translateX(-50%);
+        }
+        .center-verhor{
+            position:absolute;
+            left:50%; top:50%;
+            transform:translate(-50%,-50%);
+        }
+
+        .stuff-h1 {
             color: white;
             letter-spacing: 2px;
             margin-bottom: 0;
             font-size: 35px;
         }
         
-        p {
+        .stuff-p {
             font-family: 'Times New Roman', Times, serif;
             color: white;
             font-size: 21px;
