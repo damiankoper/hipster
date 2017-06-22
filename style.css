@@ -181,11 +181,12 @@
             background-image: url("img/pexels-photo-261828.jpeg");
         }
         
-        #withbutton {
+        .withbutton {
             padding: 100px;
             clear: left;
             position: relative;
             background-color: white;
+            text-align: center;
         }
         
         .buttonload {
@@ -195,7 +196,6 @@
             position: relative;
             bottom: 0%;
             font-size: 20px;
-            left: 45%;
             font-style: italic;
             padding: 13px;
             cursor: pointer;
@@ -205,4 +205,27 @@
         .buttonload:hover {
             background-color: darkolivegreen;
             color: wheat;
+        }
+        
+        .fontellos {
+            text-align: center;
+            font-size: 50px;
+            letter-spacing: 40px;
+            padding-bottom: 60px;
+        }
+        
+        .fontellos2 {
+            text-align: center;
+            font-size: 20px;
+            letter-spacing: normal;
+        }
+        
+        i {
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        .agency {
+            width: 100%;
+            background-color: white;
         }
