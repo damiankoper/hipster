@@ -144,7 +144,7 @@
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
-            background-color: rgba(255, 255, 255, 0.4);
+            background-color: rgba(0, 0, 0, 0.2);
             background-blend-mode: multiply;
         }
         
@@ -210,8 +210,8 @@
         .fontellos {
             text-align: center;
             font-size: 50px;
-            letter-spacing: 40px;
             padding-bottom: 60px;
+            margin: auto;
         }
         
         .fontellos2 {
@@ -223,9 +223,46 @@
         i {
             display: inline-block;
             cursor: pointer;
+            text-align: center;
         }
         
         .agency {
             width: 100%;
             background-color: white;
+        }
+        
+        .imageblock {
+            position: relative;
+        }
+        
+        .imageblock .people {
+            float: left;
+            width: 33%;
+            height: 250px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.3);
+            background-blend-mode: multiply;
+        }
+        
+        .imageblock p {
+            text-align: center;
+            color: white;
+            position: relative;
+            top: 60%;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        
+        #firsthuman {
+            background-image: url("img/pexels-photo-211997.jpeg");
+        }
+        
+        #secondhuman {
+            background-image: url("img/pexels-photo-247917.jpeg");
+        }
+        
+        #thirdhuman {
+            background-image: url("img/pexels-photo(1).jpeg");
         }
