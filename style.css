@@ -239,7 +239,7 @@
         
         .imageblock .people {
             float: left;
-            width: 33%;
+            width: 33.33%;
             height: 250px;
             background-repeat: no-repeat;
             background-position: center;
@@ -267,4 +267,50 @@
         
         #thirdhuman {
             background-image: url("img/pexels-photo(1).jpeg");
+        }
+        
+        .slider {
+            height: 300px;
+            position: relative;
+            clear: left;
+            overflow: hidden;
+        }
+        
+        .slide {
+            width: 100%;
+            padding: 0 100px;
+            box-sizing: border-box;
+            text-align: center;
+            transition: all 0.3s;
+        }
+        
+        .slider.limit {
+            width: 60%;
+        }
+        
+        .slider .arrows {
+            position: absolute;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            transform: rotateZ(-90deg) translateX(50%);
+            z-index: 999;
+        }
+        
+        .slider .left {
+            right: initial;
+            left: 0;
+            transform: rotateZ(90deg) translateX(-50%);
+        }
+        
+        .slider i {
+            font-size: 50px;
+        }
+        
+        .slide-left {
+            transform: translate(-100%, -50%);
+        }
+        
+        .slide-right {
+            transform: translate(100%, -50%);
         }
